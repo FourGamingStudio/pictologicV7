@@ -17,9 +17,9 @@ ui.onLoad(() => {
 	ptl = new BaseDialog("Logic hình ảnh");
 	ptl.cont.add("Hướng Dẫn Sử Dụng");
 	ptl.cont.row();
-	ptl.cont.add("[coral]1.[] Vui lòng chọn hình ảnh có đuôi là [stat].png[]");
+	ptl.cont.add("[coral]1.[] Vui lòng chọn hình ảnh có đuôi là [stat].png[].");
 	ptl.cont.row();
-	ptl.cont.add("[coral]2.[] Cắt bức hình ấy thành tỉ lệ [stat]1:1 hoặc hình vuông[].");
+	ptl.cont.add("[coral]2.[] Cắt bức hình ấy thành tỉ lệ [stat]1:1 []hoặc [stat]hình vuông[].");
 	ptl.cont.row();
 	ptl.cont.add("[coral]3.[] Nhấn nút [stat]chọn hình ảnh[] --> chọn hình ảnh vừa cắt và nhấn nút lưu.");
 	ptl.cont.row();
