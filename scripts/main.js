@@ -17,9 +17,15 @@ ui.onLoad(() => {
 	ptl = new BaseDialog("Logic hình ảnh");
 	ptl.cont.add("Hướng Dẫn Sử Dụng");
 	ptl.cont.row();
-	ptl.cont.add("[coral]1.[] Vui lòng chọn hình ảnh có đuôi là [stat].png[], và cắt bức hình ấy thành tỉ lệ [stat]1:1[].");
+	ptl.cont.add("[coral]1.[] Vui lòng chọn hình ảnh có đuôi là [stat].png[]");
 	ptl.cont.row();
-	ptl.cont.add("[coral]2.[] Nhấn [stat]khởi tạo[] để tạo bản vẽ hình ảnh.");
+	ptl.cont.add("[coral]2.[] Cắt bức hình ấy thành tỉ lệ [stat]1:1 hoặc hình vuông[].");
+	ptl.cont.row();
+	ptl.cont.add("[coral]3.[] Nhấn nút [stat]chọn hình ảnh[] --> chọn hình ảnh vừa cắt và nhấn nút lưu.");
+	ptl.cont.row();
+	ptl.cont.add("[coral]4.[] Nhấn nút [stat]cài đặt[] để tùy chọn các thông số cần thiết.");
+	ptl.cont.row();
+	ptl.cont.add("[coral]5.[] Nhấn nút [stat]khởi tạo[] để tạo bản vẽ hình ảnh.");
 	ptl.cont.row();
 	ptl.cont.add("[coral]Nhớ đăng ký cho Four Gaming Studio nhé!!!.");
 	ptl.cont.row();
