@@ -1,0 +1,11 @@
+{
+	"name": "pictologic",
+	"displayName": "PicToLogic",
+	"author": "four đi coppy",
+	"description": "Biến hình ảnh thành bản vẽ logic hình ảnh.\n[stat]Yêu cầu bản mod hỗ trợ: [#00aaff]four/four_ui-lib[].",
+	"version": "1.6.0",
+	"dependencies": ["four_ui-lib"],
+	"minGameVersion": 136,
+	"hidden": true,
+	"repo": "four/pictologic"
+}
